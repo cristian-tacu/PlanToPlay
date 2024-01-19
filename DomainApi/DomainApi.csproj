@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\" />
+      <Folder Include="Players\Commands\" />
+      <Folder Include="Players\Dtos\" />
+      <Folder Include="Players\Models\" />
+      <Folder Include="Players\Queries\" />
+      <Folder Include="Players\Repositories\" />
+      <Folder Include="Players\Services\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ksuid" Version="1.0.0" />
+      <PackageReference Include="MediatR" Version="12.2.0" />
+    </ItemGroup>
+
+</Project>

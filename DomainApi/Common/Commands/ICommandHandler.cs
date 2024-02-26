@@ -1,4 +1,3 @@
-using DomainApi.Common.Queries;
 using MediatR;
 
 namespace DomainApi.Common.Commands;

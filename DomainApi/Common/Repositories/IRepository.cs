@@ -3,11 +3,9 @@ using KSUID;
 
 namespace DomainApi.Common.Repositories;
 
-public interface IRepository<TEntity> : IRepository<TEntity, Ksuid> where TEntity : class;
-
-public interface IRepository<TEntity, in TEntityId> where TEntity : class
+public interface IRepository<TEntity> where TEntity : class
 {
-    ValueTask<TEntity?> GetAsync(TEntityId id);
+    ValueTask<TEntity?> GetAsync(string id);
     Task<List<TEntity>> GetAllAsync();
     Task<List<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
 

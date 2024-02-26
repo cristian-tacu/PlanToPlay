@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApi", "ConsoleApi\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Database", "Adapter.Database\Adapter.Database.csproj", "{4C15A92F-C2EE-42F6-87F8-B38DC84E5DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Hangfire", "Adapter.Hangfire\Adapter.Hangfire.csproj", "{83C3B6EC-8737-45D0-8BA9-10024E478CD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{4C15A92F-C2EE-42F6-87F8-B38DC84E5DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C15A92F-C2EE-42F6-87F8-B38DC84E5DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C15A92F-C2EE-42F6-87F8-B38DC84E5DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C3B6EC-8737-45D0-8BA9-10024E478CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C3B6EC-8737-45D0-8BA9-10024E478CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C3B6EC-8737-45D0-8BA9-10024E478CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C3B6EC-8737-45D0-8BA9-10024E478CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
